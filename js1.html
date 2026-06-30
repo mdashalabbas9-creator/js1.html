@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics Practice</title>
+</head>
+<body>
+    <style>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Example</title>
+</head>
+<body>
+
+    <div class="canvas">
+        <div class="animated-box"></div>
+    </div>
+
+</body>
+</html>
+    </style>
+
+    <h1>Welcome to JavaScript Basics</h1>
+
+    <p id="output-text">This text will be replaced by JavaScript.</p>
+
+    <button onclick="showAlert()">Click Me</button>
+
+    <script>
+        // ==========================================
+        // 1. "Hello World" Demonstrations
+        // ==========================================
+        
+        // Alert box popup
+        alert("Hello World");
+
+        // Logging to the browser developer console
+        console.log("Hello World");
+
+        // Writing directly to the HTML document
+        document.write("Hello World()!<br><br>");
+
+
+        // ==========================================
+        // 2. Creating Variables
+        // ==========================================
+        let name = "Alex";          // String
+        let age = 21;               // Number
+        let isStudent = true;       // Boolean
+
+        // Displaying variables in the console
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("Is Student?:", isStudent);
+
+
+        // ==========================================
+        // 3. Basic Math Operations
+        // ==========================================
+        let num1 = 20;
+        let num2 = 5;
+
+        let addition = num1 + num2;
+        let subtraction = num1 - num2;
+        let multiplication = num1 * num2;
+        let division = num1 / num2;
+
+        // Displaying math results in the console
+        console.log("Addition (20 + 5):", addition);
+        console.log("Subtraction (20 - 5):", subtraction);
+        console.log("Multiplication (20 * 5):", multiplication);
+        console.log("Division (20 / 5):", division);
+
+
+        // ==========================================
+        // 4. Showing Output in HTML (innerHTML)
+        // ==========================================
+        // Selecting the <p> tag by its ID and updating its content
+        document.getElementById("output-text").innerHTML = 
+            `<strong>User Profile:</strong> ${name}, Age ${age}. Student Status: ${isStudent}.`;
+
+
+        // ==========================================
+        // 5. Button Function
+        // ==========================================
+        // This function runs when the "Click Me" button is clicked
+        function showAlert() {
+            alert("Button was clicked! Thanks for interacting.");
+        }
+    </script>
+</body>
+</html>
